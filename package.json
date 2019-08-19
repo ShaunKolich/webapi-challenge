@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon index.js",
-    "start": "node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,9 @@
   "keywords": [
     "webapi",
     "unit",
-    "challenge"
+    "challenge",
+    "node",
+    "api"
   ],
   "author": "Lambda School",
   "bugs": {
@@ -25,6 +27,7 @@
     "express": "^4.17.1",
     "helmet": "^3.20.0",
     "knex": "^0.19.1",
+    "nodemon": "^1.19.1",
     "sqlite3": "^4.0.9"
   },
   "devDependencies": {
